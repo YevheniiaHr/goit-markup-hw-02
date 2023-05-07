@@ -1,3 +1,117 @@
-.list{
-    list-style: none;
+:root {
+  --background-color: #ffffff;
+  --accent-color: #404bbf;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --primary-color-text: #434455;
+  --secondary-color-text: #2e2f42;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* COMPONENTS */
+body {
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+  color: var(--primary-color-text);
+}
+
+/* HEADER */
+.logo {
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--secondary-color-text);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.address {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color-text);
+}
+.address :hover,
+.address :focus {
+  color: var(--accent-color);
+}
+/* HERO */
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+
+  color: #ffffff;
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.modal-btn :hover,
+.modal-btn :focus {
+  background-color: #404bbf;
+}
+/* FEATUERS */
+
+.title-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  color: var(--secondary-color-text);
+}
+.text-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color-text);
+}
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--secondary-color-text);
+}
+.text-section {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color-text);
+}
+.foto-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-color-text);
+}
+.foto-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-color-text);
+}
+.tagline {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  /* color: #f4f4fd; */
 }
