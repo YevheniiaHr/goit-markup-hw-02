@@ -49,15 +49,15 @@ body {
 .menu-link:focus {
   color: var(--accent-color);
 }
-.address {
+.address-item {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-color-text);
 }
-.address :hover,
-.address :focus {
+.address-item:hover,
+.address-item:focus {
   color: var(--accent-color);
 }
 /* HERO */
@@ -113,6 +113,8 @@ body {
   line-height: 1.5;
   color: var(--primary-color-text);
 }
+/* OUT TEAM */
+
 .foto-title {
   font-weight: 500;
   font-size: 20px;
