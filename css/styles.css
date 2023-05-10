@@ -176,7 +176,7 @@ body {
 .subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
