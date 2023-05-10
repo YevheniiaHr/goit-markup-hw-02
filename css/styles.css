@@ -43,6 +43,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: var(--secondary-color-text);
 }
@@ -59,6 +60,9 @@ body {
   color: var(--accent-color);
 }
 .contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
 .contacts-link:hover,
@@ -104,9 +108,11 @@ body {
   color: var(--secondary-color-text);
 }
 .text-section {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
-/* OUT TEAM */
+/* ABOUT US */
 .secondary-title {
   font-size: 36px;
   line-height: 1.11;
@@ -115,7 +121,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
-
+/* OUR TEAM */
 .team {
   background-color: #f4f4fd;
 }
@@ -130,6 +136,8 @@ body {
   color: var(--secondary-color-text);
 }
 .foto-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
 /* FOOTER */
@@ -168,10 +176,11 @@ body {
 .subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
 .descr {
+  letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
