@@ -173,14 +173,16 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+/* ITEMS */
 .subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
 .descr {
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--primary-color-text);
 }
